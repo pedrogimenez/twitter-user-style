@@ -23,7 +23,6 @@ var style       = document.createElement('style');
 style.type      = 'text/css';
 style.innerHTML = ${CSS};
 
-var head = document.getElementsByTagName('head')[0];
-(head || document.body).appendChild(style);
+document.head.appendChild(style);
 
 })();}
