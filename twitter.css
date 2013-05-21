@@ -119,6 +119,14 @@
 .wrapper.black .module .active .list-link {
   background-color: rgba(0,0,0,.7);;
 }
+.signup-call-out .holding input[type=text],
+.signup-call-out .holding input[type=password] {
+  width: 160px;
+}
+
+.signup-call-out input[type=submit] {
+  width: 170px;
+}
 
 /* Misc
 ================================================== */
